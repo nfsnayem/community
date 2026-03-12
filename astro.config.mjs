@@ -12,11 +12,13 @@ export default defineConfig({
     			dark: './src/assets/dark-logo.svg',
 				replacesTitle: true,
   			},
+			// Social media
 			social: [
 				{ icon: 'heart', label: 'Donate', href: '#' },
 				{ icon: 'comment-alt', label: 'WhatsApp', href: 'https://wa.me/8801729724222' },
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/nfsnayem/community' }
 			],
+			// Sidebar navigation
 			sidebar: [
 				{ 
 					label: 'Home',
@@ -35,7 +37,7 @@ export default defineConfig({
 					autogenerate: { directory: 'templates' },
 				},
 			],
-			// Enable Edit page
+			// Enable edit page
 			editLink: {
 				baseUrl: 'https://github.com/nfsnayem/community/edit/main/',
 			},
