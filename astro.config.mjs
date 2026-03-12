@@ -35,6 +35,12 @@ export default defineConfig({
 					autogenerate: { directory: 'templates' },
 				},
 			],
+			// Enable Edit page
+			editLink: {
+				baseUrl: 'https://github.com/nfsnayem/community/edit/main/',
+			},
+			// Enable last updated date
+			lastUpdated: true,
 		}),
 	],
 });
