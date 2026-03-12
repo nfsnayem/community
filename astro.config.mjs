@@ -6,14 +6,15 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: '',
+			title: 'Nixgle Community',
 			logo: {
     			light: './src/assets/light-logo.svg',
     			dark: './src/assets/dark-logo.svg',
+				replacesTitle: true,
   			},
 			social: [
 				{ icon: 'heart', label: 'Donate', href: '#' },
-				{ icon: 'comment-alt', label: 'WhatsApp', href: 'https://wa.me/01729724222' },
+				{ icon: 'comment-alt', label: 'WhatsApp', href: 'https://wa.me/8801729724222' },
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/nfsnayem/community' }
 			],
 			sidebar: [
