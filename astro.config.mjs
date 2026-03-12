@@ -14,8 +14,7 @@ export default defineConfig({
   			},
 			// Social media
 			social: [
-				{ icon: 'heart', label: 'Donate', href: '#' },
-				{ icon: 'comment-alt', label: 'WhatsApp', href: 'https://wa.me/8801729724222' },
+				{ icon: 'discord', label: 'Discord', href: 'https://discord.gg/VmEGZW6SmW' },
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/nfsnayem/community' }
 			],
 			// Sidebar navigation
