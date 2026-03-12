@@ -18,6 +18,10 @@ export default defineConfig({
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/nfsnayem/community' }
 			],
 			sidebar: [
+				{ 
+					label: 'Home',
+					link: '/' 
+				},
 				{
 					label: 'Plugins',
 					autogenerate: { directory: 'plugins' },
