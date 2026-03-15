@@ -38,4 +38,4 @@ Please open an issue and include:
 2. Clone your fork
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/nfsnayem/community.git
